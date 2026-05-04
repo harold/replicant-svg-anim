@@ -1,0 +1,13 @@
+{:source-paths ["src"]
+
+ :dependencies
+ [[no.cjohansen/replicant "2025.12.1"]]
+
+ :dev-http {8090 "docs"}
+
+ :builds
+ {:app
+  {:target     :browser
+   :output-dir "docs/js"
+   :asset-path "/js"
+   :modules    {:main {:init-fn app.core/init!}}}}}

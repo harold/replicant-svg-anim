@@ -1,0 +1,14 @@
+{
+  "name": "replicant-svg-anim",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "watch": "shadow-cljs watch app",
+    "release": "shadow-cljs release app",
+    "server": "shadow-cljs server",
+    "build": "rm -rf docs/js && shadow-cljs release app"
+  },
+  "devDependencies": {
+    "shadow-cljs": "3.4.4"
+  }
+}

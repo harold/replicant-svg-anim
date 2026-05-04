@@ -1,0 +1,7 @@
+/node_modules/
+/.shadow-cljs/
+/.clj-kondo/
+/.lsp/
+/docs/js/manifest.edn
+.DS_Store
+package-lock.json
